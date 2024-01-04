@@ -1,0 +1,41 @@
+what is React Js ?
+
+--- Javascript library for building user interfaces (UI)
+
+--- We dont want to wait for server response or reder something
+
+--- React is about building with components 
+
+--- Split any web page to component like header , sidebar , footer etc...
+
+
+
+What is component ?
+
+--- Piece of code or piece of reusable code block
+
+--- write codes once and easily re-use no of times
+
+--- These code snippets reflect a particular part of the (UI)
+
+--- these are 2 types
+
+	( i ) Functional components ---- should return one and only element is JSX
+
+	( ii ) Class component ---- should extens react.components , render method return only element JSX
+
+
+
+
+how to setup react ?
+
+--- create one folder , open cmd , type the following code ( npx create-react-app ( project name ) )
+
+--- start the react to create a project
+
+
+what is react props ?
+
+--- props is stand for properties & used for passing data from one to another component
+
+--- in react POV props are variables passed to by its parent component
