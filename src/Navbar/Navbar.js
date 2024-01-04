@@ -1,13 +1,13 @@
 let Navbar = () => {
   return (
-    <nav className="Navbar navbar-dark bg-dark navbar-expand-lg">
+    <nav className="Navbar navbar-dark bg-dark">
       <a href="#" className="navbar-brand">
-        Bootstrap
+        Notu Gaming Channel
       </a>
       <div className="ml-auto">
         <ul className="navbar-nav">
           <li>
-            <a className="nav-link" href="#">
+            <a className="nav-link " href="#">
               Home
             </a>
           </li>
@@ -18,12 +18,12 @@ let Navbar = () => {
           </li>
           <li>
             <a className="nav-link" href="#">
-              Service
+              Streams
             </a>
           </li>
           <li>
             <a className="nav-link" href="#">
-              Contact
+              Community
             </a>
           </li>
         </ul>
