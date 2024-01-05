@@ -14,7 +14,7 @@ const Hooks = () => {
   return (
     <main className="bg-light">
       <br />
-      <span className="">{count}</span>
+      <span>{count}</span>
       <button className="btn btn-outline-success" onClick={increment}>
         Subscribe
       </button>

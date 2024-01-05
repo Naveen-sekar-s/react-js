@@ -1,6 +1,7 @@
 import Hooks from "./Hook/Hooks";
 import Navbar from "./Navbar/Navbar";
 import Acomponent from "./Props/Acomponent";
+import Employeereq from "./State/State";
 
 const App = () => {
   return (
@@ -8,6 +9,7 @@ const App = () => {
       <Navbar />
       <Hooks />
       <Acomponent />
+      <Employeereq />
     </div>
   );
 };
