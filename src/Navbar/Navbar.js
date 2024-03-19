@@ -1,3 +1,9 @@
+import { Link, Route } from "react-router-dom";
+import Home from "../Websites/Home"
+import About from "../Websites/About"
+import Community from "../Websites/Community"
+import Streams from "../Websites/Streams"
+
 let Navbar = () => {
   return (
     <nav className="Navbar navbar-dark bg-dark">
@@ -7,24 +13,24 @@ let Navbar = () => {
       <div className="ml-auto">
         <ul className="navbar-nav">
           <li>
-            <a className="nav-link " href="#">
+            <Link className="nav-link " to={Home}>
               Home
-            </a>
+            </Link>
           </li>
           <li>
-            <a className="nav-link" href="#">
+            <Link className="nav-link" to={About}>
               About
-            </a>
+            </Link>
           </li>
           <li>
-            <a className="nav-link" href="#">
+            <Link className="nav-link" to={Streams}>
               Streams
-            </a>
+            </Link>
           </li>
           <li>
-            <a className="nav-link" href="#">
+            <Link className="nav-link" to={Community}>
               Community
-            </a>
+            </Link>
           </li>
         </ul>
       </div>

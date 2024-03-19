@@ -1,16 +1,13 @@
-import Hooks from "./Hook/Hooks";
+import { BrowserRouter } from "react-router-dom";
 import Navbar from "./Navbar/Navbar";
-import Acomponent from "./Props/Acomponent";
-import Employeereq from "./State/State";
-
 const App = () => {
   return (
-    <div>
-      <Navbar />
-      <Hooks />
-      <Acomponent />
-      <Employeereq />
-    </div>
+    <BrowserRouter>
+      <div>
+        <Navbar />
+        <switch ></switch>
+      </div>
+    // </BrowserRouter>
   );
 };
 
